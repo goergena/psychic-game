@@ -18,7 +18,7 @@ function gameConditions() {
   computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
   remainingGuesses = 10;
   guessedLetters = [];
-   }
+}
 
 // Next, we give JavaScript a function to execute when onkeyup event fires.
 document.onkeyup = function gameStart(event) {
